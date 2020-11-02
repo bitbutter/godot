@@ -113,6 +113,7 @@
 			</argument>
 			<description>
 				Returns [code]true[/code] if a collision would result from moving in the given vector. [code]margin[/code] increases the size of the shapes involved in the collision detection, and [code]result[/code] is an object of type [PhysicsTestMotionResult2D], which contains additional information about the collision (should there be one).
+				If [code]infinite_inertia[/code] is true, this method won't detect collisions with RigidBody2D nodes.
 			</description>
 		</method>
 	</methods>
